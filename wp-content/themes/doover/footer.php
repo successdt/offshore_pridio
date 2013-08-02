@@ -23,7 +23,7 @@
 			<div class="one_third col">
 				<div class="copyrights">
 					<p class="author">&copy; <?php echo date( 'Y' ); ?> <span><?php bloginfo( 'name' ); ?></span>. <?php _e('All Rights Reserved. Powered by','doover'); ?> <a href="http://wordpress.org">WordPress</a>.</p>
-					<p><?php _e('Created by','doover'); ?> <a href="http://muffingroup.com">Muffin group</a>.</p>
+					<p><?php _e('Created by','doover'); ?> <a href="http://ecomwebpro.com">EWP</a>.</p>
 				</div>
 			</div>
 			
