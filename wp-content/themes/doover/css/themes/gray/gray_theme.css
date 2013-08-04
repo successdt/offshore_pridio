@@ -799,3 +799,46 @@ table tbody tr.odd td {
 #Photo_slider ul.controls li a {
 	background: url(images/slider_controls.png) no-repeat 0 0;
 }
+/****************Ecomwebpro.com*******************/
+#Offer_slider div.controls h3 {
+	font-size:25px;
+}
+.subpage_header h1 {
+	font-size:40px !important;
+}
+#navigation a {
+	font-weight: bold !important;
+}
+p.nocomments, li.empty-category {
+	display: none;
+}
+#searchform label {
+	visibility: hidden;
+}
+.widget_yahoo_skype_status, .wp_statistics_show_widget {
+	text-align: center;
+}
+table.catalog-price {
+	text-align: left;
+}
+table.catalog-price th {
+	background: #0B3D72;
+	color: #FFF;
+	text-shadow: none;
+}
+table.catalog-price th h4 {
+	color: #FFF;
+}
+table.catalog-price td{
+	text-align: left;
+}
+.content .select_category li a {
+	padding-right: 0px;
+	background: #F3F3F3;
+	border-radius: 15px;
+} 
+.content .select_category li a span{
+	background: none;
+	padding: 0px 25px;
+	text-shadow: none;
+}
