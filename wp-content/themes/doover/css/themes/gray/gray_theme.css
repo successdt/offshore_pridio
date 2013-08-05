@@ -801,7 +801,7 @@ table tbody tr.odd td {
 }
 /****************Ecomwebpro.com*******************/
 #Offer_slider div.controls h3 {
-	font-size:25px;
+	font-size:22px;
 }
 .subpage_header h1 {
 	font-size:40px !important;
@@ -815,8 +815,31 @@ p.nocomments, li.empty-category {
 #searchform label {
 	visibility: hidden;
 }
-.widget_yahoo_skype_status, .wp_statistics_show_widget {
+.widget_yahoo_skype_status, .wp_statistics_show_widget, .widget_nav_menu {
 	text-align: center;
+	background-color: #FFF;
+	border-radius: 5px;
+	overflow: hidden;
+	border: 1px solid #F6F6F6;
+}
+.widget_nav_menu {
+	text-align: left;
+}
+.sidebar .widget_nav_menu ul {
+	background-color: #FFF;
+}
+.widget_yahoo_skype_status h5, .widget_nav_menu h5 {
+	background: #222222;
+	color: #FFF;
+	padding: 10px;
+	margin-bottom: 0px;
+	text-align: center;
+	background-image: -ms-linear-gradient(bottom, #858585 0%, #00090D 100%);
+	background-image: -moz-linear-gradient(bottom, #858585 0%, #00090D 100%);
+	background-image: -o-linear-gradient(bottom, #858585 0%, #00090D 100%);
+	background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #858585), color-stop(1, #00090D));
+	background-image: -webkit-linear-gradient(bottom, #858585 0%, #00090D 100%);
+	background-image: linear-gradient(to top, #858585 0%, #00090D 100%);
 }
 table.catalog-price {
 	text-align: left;
@@ -841,4 +864,21 @@ table.catalog-price td{
 	background: none;
 	padding: 0px 25px;
 	text-shadow: none;
+}
+.widget_mkslider_widget {
+	overflow: hidden;
+	border-radius: 5px;
+	border: 1px solid #F6F6F6;
+}
+.widget_mkslider_widget h5{
+	display: none;
+}
+.widget_mkslider_widget img {
+	width: 210px;
+	height: 300px;
+} 
+.box_skitter {
+	border-radius: 0 !important;
+	background: none !important;
+	border: none !important;
 }
