@@ -809,6 +809,9 @@ table tbody tr.odd td {
 #navigation a {
 	font-weight: bold !important;
 }
+#navigation .sub-menu a {
+	font-weight: normal !important;
+}
 p.nocomments, li.empty-category {
 	display: none;
 }
