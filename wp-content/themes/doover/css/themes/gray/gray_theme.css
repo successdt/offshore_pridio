@@ -570,7 +570,7 @@ a.call_to_action_contact {
 
 /************** Forms **************/
 
-form input[type="text"], form input[type="password"], form select, textarea {
+form input[type="text"], form input[type="email"], form input[type="tel"], form input[type="password"], form select, textarea {
 	border-top: 1px solid #b2b2b2;
 	border-left: 1px solid #b2b2b2;
 	border-right: 1px solid #d6d6d6;
@@ -579,7 +579,7 @@ form input[type="text"], form input[type="password"], form select, textarea {
 	color: #868686;
 }
 
-form input[type="text"]:focus, form input[type="password"]:focus, form select:focus, textarea:focus {
+form input[type="text"]:focus, form input[type="email"]:focus, form input[type="email"]:focus, form input[type="password"]:focus, form select:focus, textarea:focus {
 
 }
 
@@ -881,4 +881,14 @@ table.catalog-price td{
 	border-radius: 0 !important;
 	background: none !important;
 	border: none !important;
+}
+
+form input[type="email"], form input[type="tel"]{
+	font-size: 13px;
+	margin: 0;
+	padding: 8px 6px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	-webkit-border-radius: 8px;
+	display: block;
 }
