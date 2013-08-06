@@ -21,10 +21,10 @@ get_header(); ?>
 				
 				<?php if ( have_posts() ) : the_post(); ?>	
 					<?php the_content(); ?>
-					<?php if( $contact ) echo "<hr />";?>
+					<?php // if( $contact ) echo "<hr />";?>
 				<?php endif; ?>
 
-				<?php if( $contact ):?>
+				<?php /* if( $contact ): ?>
 					<h4><?php _e('Send us a question','doover'); ?>:</h4>
 					<div class="contact_form">
 						<form id="json_contact_form" method="POST" action="<?php echo( LIBS_URI .'/theme-mail.php'); ?>">
@@ -41,7 +41,7 @@ get_header(); ?>
 							</fieldset>
 						</form>
 					</div>
-				<?php endif; ?>
+				<?php endif; */ ?>
 				
 			</div>
 			

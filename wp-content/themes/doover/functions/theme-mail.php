@@ -17,7 +17,7 @@ $headers = 'From: '. $name .' <'. $email .'>';
 $subject .= ', from: ' .$name ;
 
 //if( @mail( $to, $subject, $message, $headers ) ){
-if( @wp_mail( $to, $subject, $headers . $message) ){
+if( @mail( $to, $subject, $headers . $message) ){
 	echo json_encode( array(
 		'status' => 'ok'
 	));	  
