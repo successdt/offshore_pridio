@@ -19,6 +19,7 @@ get_header(); ?>
 			$menu_args = array(
 				'taxonomy' => 'portfolio-types',
 				'orderby' => 'name',
+				'parent' => get_queried_object_id(),
 				'show_count' => 1, // 1 for yes, 0 for no
 				'hierarchical' => 1, // 1 for yes, 0 for no
 				'hide_empty' => 0, // 1 for yes, 0 for no
@@ -29,7 +30,9 @@ get_header(); ?>
 			?>
 			
 			<div class="select_category">
+<!--
 				<h5><?php _e('Select category:','doover'); ?></h5>
+-->
 				<ul>
 					<?php
 						$portfolio_page_id = doover_get_option( 'portfolio_page' );
