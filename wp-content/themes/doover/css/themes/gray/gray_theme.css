@@ -940,7 +940,14 @@ table.pricing-table td a {
 	display:none
 }
 .carousel{
-	/* IE10 Consumer Preview */ 
+	color: #FFF;
+	text-decoration: none;
+	border-radius: 5px 0 0 5px;	
+	float: left;
+	padding: 15px;
+	font-size: 16px;
+}
+.carousel-wrapper {
 	background-image: -ms-linear-gradient(bottom right, #1A97BD 0%, #2191D1 100%);
 	
 	/* Mozilla Firefox */ 
@@ -957,14 +964,7 @@ table.pricing-table td a {
 	
 	/* W3C Markup, IE10 Release Preview */ 
 	background-image: linear-gradient(to top left, #1A97BD 0%, #2191D1 100%);
-	color: #FFF;
-	text-decoration: none;
-	border-radius: 5px 0 0 5px;	
-	float: left;
-	padding: 15px;
-	font-size: 16px;
-}
-.carousel-wrapper {
+	
 	border: 1px solid #1A97BD;
 	border-radius: 5px;
 	overflow: hidden;
