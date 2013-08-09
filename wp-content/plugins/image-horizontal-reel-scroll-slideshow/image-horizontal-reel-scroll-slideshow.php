@@ -14,7 +14,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
  
 global $wpdb, $wp_version;
-define("WP_Ihrss_TABLE", $wpdb->prefix . "Ihrss_plugin");
+define("WP_Ihrss_TABLE", $wpdb->prefix . "ihrss_plugin");
 define("WP_Ihrss_UNIQUE_NAME", "Ihrss");
 define("WP_Ihrss_TITLE", "Image horizontal reel scroll slideshow");
 define('WP_Ihrss_LINK', 'Check official website for more information <a target="_blank" href="http://www.gopiplus.com/work/2011/05/08/wordpress-plugin-image-horizontal-reel-scroll-slideshow/">click here</a>');
