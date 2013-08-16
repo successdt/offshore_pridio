@@ -15,7 +15,7 @@
 		<?php get_sidebar( 'footer' ); ?>
 		
 		<div class="row clearfix">
-			<div class="one_third col">
+			<div class="one_third col" style="min-height:300px;">
 				<?php /*
 				<iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fecomwebpro&amp;width=300&amp;height=258&amp;show_faces=true&amp;colorscheme=light&amp;stream=false&amp;show_border=false&amp;header=false&amp;appId=401582569900520" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:300px; height:258px;" allowTransparency="true">
 				</iframe>
