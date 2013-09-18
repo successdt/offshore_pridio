@@ -259,7 +259,7 @@ a.call_to_action_contact {
 }
 
 #Footer .widget li {
-    background: url(images/footer_link.png) no-repeat left center;
+    /* background: url(images/footer_link.png) no-repeat left center; */
 }
 
 #Footer .widget li a {
