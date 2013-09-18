@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2013-08-03 19:33+0700\n"
+"PO-Revision-Date: 2013-09-05 14:36+0700\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10246,7 +10246,7 @@ msgstr "Đăng vào: <b>%1$s</b>"
 #: wp-admin/includes/meta-boxes.php:324 wp-admin/includes/meta-boxes.php:666
 #: wp-admin/includes/nav-menu.php:874 wp-admin/press-this.php:499
 msgid "Most Used"
-msgstr "Được sử dụng nhiều nhất"
+msgstr "Sử dụng nhiều"
 
 #: wp-admin/includes/meta-boxes.php:687 wp-admin/includes/meta-boxes.php:689
 msgid "+ Add New Category"
